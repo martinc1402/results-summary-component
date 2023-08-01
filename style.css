@@ -1,0 +1,18 @@
+html {
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.results-section {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+    
+}
