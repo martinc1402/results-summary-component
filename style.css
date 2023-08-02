@@ -10,10 +10,13 @@ body {
 }
 
 .results-section {
+    min-height: 24em;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
     padding-top: 0.6em;
-    padding-bottom: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    border-radius: 0 0 32px 32px;
     
 }
 
@@ -24,11 +27,12 @@ body {
 }
 
 .results-score-container {
+   margin-top: 1em;
     display: inline-block;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 155px;
+    width: 155px;
     position: relative;
 }
 
@@ -38,7 +42,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
- transform: translate(-50%, -100%); 
+ transform: translate(-50%, -110%); 
 
     
 }
@@ -48,4 +52,15 @@ body {
     font-weight: 500;
     display: block;
     color: hsla(0, 0%, 100%, 0.5);
+}
+
+.results-description {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.results-description-comparison {
+    color: hsla(0, 0%, 100%, 0.8);
+    margin-top: 1em;
 }
