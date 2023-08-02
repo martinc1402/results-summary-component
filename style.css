@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
 }
@@ -15,4 +15,37 @@ body {
     padding-top: 0.6em;
     padding-bottom: 1em;
     
+}
+
+.results-heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.results-score-container {
+    display: inline-block;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.results-score-heading {
+    font-size: 48px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ transform: translate(-50%, -100%); 
+
+    
+}
+
+.results-score-subheading {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    color: hsla(0, 0%, 100%, 0.5);
 }
