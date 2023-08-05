@@ -30,8 +30,8 @@ body {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
     padding-top: 0.6em;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
     border-radius: 0 0 32px 32px;
     z-index: 2;
     
@@ -113,10 +113,6 @@ body {
  
 }
 
-.summary-panel-row-category {
-   
-}
-
 .summary-panel-row-score {
     color: hsl(224, 30%, 27%);
     font-weight: 700;
@@ -156,7 +152,7 @@ body {
     background-color: hsl(224, 30%, 27%);
     border: none;
     text-decoration: none;
-    padding: 1.2em 0;
+    padding: 1.1em 0;
     font-size: 16px;
     font-weight: 500;
     border-radius: 30px;
@@ -177,7 +173,6 @@ body {
 }
 
 
-
 .summary-section {
     background-color: hsl(0, 0%, 100%);
     max-width: 425px;
@@ -186,8 +181,6 @@ body {
 }
 
 .results-section {
-    padding-left: 3.5em;
-    padding-right: 3.5em;
     min-width: 350px;
     border-radius: 32px;
 }
@@ -219,7 +212,5 @@ body {
     max-width: 100%;
     align-self: center;
    }
-
-
 
 }
