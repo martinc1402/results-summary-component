@@ -5,9 +5,9 @@
 }
 
 .attribution { 
-    font-size: 11px;
+    font-size: 10px;
     text-align: center;
-    margin: 1em;
+    margin-top: 1.2em;
     position: sticky;
 }
 .attribution a { color: hsl(228, 45%, 44%); 
@@ -33,6 +33,7 @@ body {
     padding-left: 6em;
     padding-right: 6em;
     border-radius: 32px;
+    z-index: 2;
     
 }
 
@@ -84,6 +85,7 @@ body {
 .summary-section {
  padding: 1em 2.2em;
  border-radius: 0 32px 32px 0;
+ z-index: 1;
 }
 
 .summary-heading {
@@ -174,9 +176,13 @@ body {
     background-color: hsl(221, 100%, 96%);
 }
 
+
+
 .summary-section {
     background-color: hsl(0, 0%, 100%);
-    max-width: 400px
+    max-width: 425px;
+    transform: translateX(-25px);
+    padding-left: 3em;
 }
 
    .container {
