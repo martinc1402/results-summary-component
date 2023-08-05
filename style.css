@@ -32,7 +32,7 @@ body {
     padding-top: 0.6em;
     padding-left: 6em;
     padding-right: 6em;
-    border-radius: 32px;
+    border-radius: 0 0 32px 32px;
     z-index: 2;
     
 }
@@ -183,6 +183,24 @@ body {
     max-width: 425px;
     transform: translateX(-25px);
     padding-left: 3em;
+}
+
+.results-section {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    min-width: 350px;
+    border-radius: 32px;
+}
+
+.results-heading {
+    margin-top: 1.4em;
+    margin-bottom: 1.2em;
+}
+
+.results-description {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 32px;
 }
 
    .container {
