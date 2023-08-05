@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
+  <script src="https://kit.fontawesome.com/1e6833bdb0.js" crossorigin="anonymous"></script>
 
   <title>Frontend Mentor | Results summary component</title>
 
@@ -35,29 +35,43 @@
 
 
 <section class="summary-section">
-  <h2 class="summary-heading">Summary</h2>
+
+
 <div class="summary-panel">
-<div class="summary-panel-row">Reaction
-  80 / 100</div>
 
-<div class="summary-panel-row">Memory
-  92 / 100</div>
+    <h2 class="summary-heading">Summary</h2>
+  
 
-<div class="summary-panel-row">Verbal
-  61 / 100</div>
+  <div class="summary-panel-row">
+    <div class="summary-panel-row-category"><img class="icon" src="assets/images/icon-reaction.svg" alt="Icon of a lightning bolt">Reaction</div> 
+    <div class="summary-panel-row-score">80 <span class="summary-panel-row-score-secondary">/ 100</span></div>
+  </div>
 
-  <div class="summary-panel-row">Visual
-    72 / 100</div>
+<div class="summary-panel-row">
+  <div class="summary-panel-row-category"><img class="icon" src="assets/images/icon-memory.svg" alt="Icon of a brain">Memory</div>
+  <div class="summary-panel-row-score">92 <span class="summary-panel-row-score-secondary">/ 100</span></div>
+</div>
 
+<div class="summary-panel-row">
+  <div class="summary-panel-row-category"><img class="icon" src="assets/images/icon-verbal.svg" alt="Icon of an speech bubble">Verbal</div>
+  <div class="summary-panel-row-score">61 <span class="summary-panel-row-score-secondary">/ 100</span></div>
+</div>
 
-  <button class="button">Continue</button>
+<div class="summary-panel-row">
+  <div class="summary-panel-row-category"><img class="icon" src="assets/images/icon-visual.svg" alt="Icon of an eyeball">Visual</div>
+  <div class="summary-panel-row-score">72 <span class="summary-panel-row-score-secondary">/ 100</span></div>
+</div>
 
+<button class="button">Continue</button>
+
+</div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/martinc1402" target="_blank">Martin Casey</a>.
 </div>
 </section>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/martinc1402" target="_blank">Martin Casey</a>.
-  </div>
+
 </body>
 </html>

@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Hanken Grotesk', sans-serif;
     text-align: center;
 }
@@ -37,7 +41,7 @@ body {
 }
 
 .results-score-heading {
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 800;
     position: absolute;
     top: 50%;
@@ -63,4 +67,103 @@ body {
 .results-description-comparison {
     color: hsla(0, 0%, 100%, 0.8);
     margin-top: 1em;
+}
+
+.summary-section {
+ padding: 1em 2.2em;
+}
+
+.summary-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+   margin-left: 10px;
+}
+
+.summary-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+ .summary-panel-row {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+  padding: 1.2em 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+ 
+}
+
+.summary-panel-row-category {
+   
+}
+
+.summary-panel-row-score {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.summary-panel-row-score-secondary {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.summary-panel-row:nth-of-type(1) {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.summary-panel-row:nth-of-type(2) {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.summary-panel-row:nth-of-type(3) {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.summary-panel-row:nth-of-type(4) {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button {
+    color: 	hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    text-decoration: none;
+    padding: 1.2em 0;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 1.2em;
+    font-size: 18px;
+}
+
+
+
+@media (min-width: 600px) {
+   body {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+   }
+
+   .button {
+    min-width: 30vw;
+    max-width: 40vw;
+    align-self: center;
+   }
+
+
+
 }
